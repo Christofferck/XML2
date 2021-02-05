@@ -1,0 +1,89 @@
+<!-- dtd validation for booksCanon.xml
+    af Christoffer Kalmar
+    lektier til 05-02-2021
+-->
+
+<!DOCTYPE booksCanon SYSTEM "booksCanon.dtd">
+[
+    <!ELEMENT book (title, edition, authors, author, firstname, lastname, publisher, name, year, place,pages, isbn, price, currency, comments, comment)>
+    <!ELEMENT title (#PCDATA)>
+    <!ELEMENT edition (#PCDATA)>
+    <!ELEMENT authors (author, firstname, lastname)>
+    <!ELEMENT author (firstname, lastname)>
+    <!ELEMENT firstname (#PCDATA)>
+    <!ELEMENT lastname (#PCDATA)>
+    <!ELEMENT publisher (name, year, place)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT year (#PCDATA)>
+    <!ELEMENT place (#PCDATA)>
+    <!ELEMENT pages (#PCDATA)>
+    <!ELEMENT isbn (?)>
+    <!ELEMENT price (#PCDATA)>
+    <!ELEMENT currency (#PCDATA)>
+    <!ELEMENT comments (comment)>
+    <!ELEMENT comment (#PCDATA)>
+]
+
+
+[
+    <!ELEMENT book (title, edition, authors, author, firstname, lastname, publisher, name, year, place, publisher, name, year, place, pages, isbn, price, currency, comments, comment,)>
+    <!ELEMENT title (#PCDATA)>
+    <!ELEMENT edition (#PCDATA)>
+    <!ELEMENT authors (Author, firstname, lastname)>
+    <!ELEMENT author (firstname, lastname)>
+    <!ELEMENT firstname (#PCDATA)>
+    <!ELEMENT lastname (#PCDATA)>
+    <!ELEMENT publisher (name, year, place)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT year (#PCDATA)>
+    <!ELEMENT place (#PCDATA)>
+    <!ELEMENT pages (#PCDATA)>
+    <!ELEMENT isbn (#PCDATA)>
+    <!ELEMENT price (#PCDATA)>
+    <!ELEMENT currency (#PCDATA)>
+    <!ELEMENT comments (comment)>
+    <!ELEMENT comment (#PCDATA)>
+]
+
+
+[
+<!ELEMENT book (title, edition, authors, author, firstname, lastname, publisher, name, year, place,pages, isbn, price, currency, comments, comment, comment)>
+    <!ELEMENT title (#PCDATA)>
+    <!ELEMENT edition (#PCDATA)>
+    <!ELEMENT authors (author, firstname, lastname)>
+    <!ELEMENT author (firstname, lastname)>
+    <!ELEMENT firstname (#PCDATA)>
+    <!ELEMENT lastname (#PCDATA)>
+    <!ELEMENT publisher (name, year, place)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT year (#PCDATA)>
+    <!ELEMENT place (#PCDATA)>
+    <!ELEMENT pages (#PCDATA)>
+    <!ELEMENT isbn>
+    <!ELEMENT price)>
+    <!ELEMENT currency (#PCDATA)>
+    <!ELEMENT comments (comment, comment)>
+    <!ELEMENT comment (#PCDATA)>
+    <!ELEMENT comment (#PCDATA)>
+]
+
+
+[
+<!ELEMENT book (title, edition, authors, author, firstname, lastname, publisher, name, year, place,pages, isbn, price, currency, comments, comment,)>
+    <!ELEMENT title (#PCDATA)>
+    <!ELEMENT edition (#PCDATA)>
+    <!ELEMENT authors (author, firstname, lastname)>
+    <!ELEMENT author (firstname, lastname)>
+    <!ELEMENT firstname (#PCDATA)>
+    <!ELEMENT lastname (#PCDATA)>
+    <!ELEMENT publisher (name, year, place)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT year (#PCDATA)>
+    <!ELEMENT place (#PCDATA)>
+    <!ELEMENT pages>
+    <!ELEMENT isbn>
+    <!ELEMENT price (#PCDATA)>
+    <!ELEMENT currency>
+    <!ELEMENT comments (comment)>
+    <!ELEMENT comment (#PCDATA)>
+]
